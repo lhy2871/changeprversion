@@ -60,11 +60,7 @@ def set_version(inputv,tree):
     tgtv = "30" ;
     tgtvt= "v2015_2";
 
-  version={};
-  root = tree.getroot()
   num = 0;
-  v = Version();
-  v.versionText = ""
   while not tree.findall("Project")[num].get("Version"):
     #找到版本存储位置
       num = num+1;
