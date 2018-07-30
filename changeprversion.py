@@ -35,8 +35,8 @@ def get_version(tree):
   print '\033[1;35mcurrentVersion is:\033[0m '+child.get("Version")
 
 def show_choices():
-  print "\033[1;31;40mWhat version do you want to change?\033[0m\n1) PR CC 2018.1 -- 35\n2) PR CC 2018   -- 34\n3) Pr CC 2017.1 -- 33\n4) Pr CC 2017   -- 32\n5) Pr CC 2015.5 -- 31\n6) Pr CC 2015.2 -- 30\n\nq) for quit\n"
-  #print "\nWhat version do you want to change?\n1) PR CC 2018.1\n2) PR CC 2018\n3) Pr CC 2017.1\n4) Pr CC 2017\n5) Pr CC 2015.5\n6) Pr CC 2015.2\n"
+  print "\033[1;31;40mWhat version do you want to set?\033[0m\n1) Pr CC 2018.1 -- 35\n2) Pr CC 2018   -- 34\n3) Pr CC 2017.1 -- 33\n4) Pr CC 2017   -- 32\n5) Pr CC 2015.5 -- 31\n6) Pr CC 2015.2 -- 30\n\nq) for quit\n"
+  #print "\nWhat version do you want to change?\n1) Pr CC 2018.1\n2) Pr CC 2018\n3) Pr CC 2017.1\n4) Pr CC 2017\n5) Pr CC 2015.5\n6) Pr CC 2015.2\n"
 
 def set_version(inputv,tree):
   global tgtv;
