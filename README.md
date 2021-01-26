@@ -6,8 +6,14 @@ change Adobe Premiere project version to low version
 # Thanks for Easync Team.
 # 感谢Easync团队，本项目受该团队脚本启发才最终完成
 
+# Need Python3
+# 需要 Python3
 use as python changeprversion.py $filepath
 使用方法
 ```bash
-python ./changeprversion.py ~/Desktop/highversion.prproj
+python ./changeprversion.py
+```
+使用方法(mac)
+```bash
+python3 ./changeprversion.py
 ```
