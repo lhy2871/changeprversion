@@ -8,7 +8,7 @@ change Adobe Premiere project version to low version
 
 # Need Python3
 # 需要 Python3
-use as python changeprversion.py $filepath
+use as python changeprversion.py
 使用方法
 ```bash
 python ./changeprversion.py
