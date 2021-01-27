@@ -3,7 +3,7 @@ change Adobe Premiere project version to low version
 使高版本Adobe Premiere保存的工程能被低版本的Premiere打开  
 
 # Thanks for Easync Team.  感谢Easync团队，本项目受该团队脚本启发才最终完成
-[Win可执行文件下载](https://github.com/lhy2871/changeprversion/releases/download/3.0/changeprversion.exe)
+[Win可执行文件下载页面](https://github.com/lhy2871/changeprversion/releases/)
 
 # screenshot
 ![image](https://github.com/lhy2871/changeprversion/blob/main/screenshoot.png)
