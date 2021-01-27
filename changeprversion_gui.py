@@ -38,7 +38,7 @@ versionlist = ['Pr CC 2020   -- 38',
 
 def showinfo():
     os.system('cls')
-    print("@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@\n@ Script written by Hanyuan @ Jan-26-2021 @\n@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@")
+    update_text(text1, "@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@\n@ Script written by Hanyuan @ Jan-26-2021 @\n@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@\n")
 
 class Prproj:
     def __init__(self):
@@ -169,6 +169,8 @@ def initgui():
 
     text1 = scrolledtext.ScrolledText(width=50, height=12, font=('TkDefaultFont',18), fg='black', bg='orange', state='disabled')
     text1.pack()
+
+    showinfo()
     return window
 
 
