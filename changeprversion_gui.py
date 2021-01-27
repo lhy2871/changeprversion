@@ -178,4 +178,5 @@ if __name__ == "__main__":
     projectfile = Prproj()
 
     window = initgui()
+    window.title('Pr工程文件版本降级')
     window.mainloop()
