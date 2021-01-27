@@ -38,7 +38,7 @@ versionlist = ['Pr CC 2020   -- 38',
 
 def showinfo():
     os.system('cls')
-    update_text(text1, "@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@\n@ Script written by Hanyuan @ Jan-26-2021 @\n@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@\n")
+    update_text(text1, "@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@\n@ Script written by Hanyuan @ Jan-27-2021 @\n@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@\n")
 
 class Prproj:
     def __init__(self):
@@ -148,23 +148,23 @@ def initgui():
     versiontextlist = tk.StringVar()
     versiontextlist.set(versionlist)
 
-    bt1 = tk.Button(text="打开Pr工程文件", font=('TkDefaultFont',18), command=openfile)
+    bt1 = tk.Button(text="打开Pr工程文件", font=('TkDefaultFont',18), fg='black', command=openfile)
     bt1.pack()
 
     
-    ent1 = tk.Entry(textvariable=filepath, font=('TkDefaultFont',18), width=50, state='readonly')
+    ent1 = tk.Entry(textvariable=filepath, font=('TkDefaultFont',18), fg='black', width=50, state='readonly')
     ent1.pack()
 
-    label1 = tk.Label(font=('TkDefaultFont',18))
+    label1 = tk.Label(font=('TkDefaultFont',18), fg='black')
     label1.pack()
 
-    label2 = tk.Label(text="转换为哪个版本?", font=('TkDefaultFont',18))
+    label2 = tk.Label(text="转换为哪个版本?", font=('TkDefaultFont',18), fg='black')
     label2.pack()
     listbox1 = tk.Listbox(listvariable=versiontextlist, font=('TkDefaultFont',18))
     listbox1.pack()
-    listbox1.activate(1)
+    listbox1.activate(7)
 
-    bt2 = tk.Button(text="开始转换", font=('TkDefaultFont',18), command=projectfile.set_version)
+    bt2 = tk.Button(text="开始转换", font=('TkDefaultFont',18), fg='black', command=projectfile.set_version)
     bt2.pack()
 
     text1 = scrolledtext.ScrolledText(width=50, height=12, font=('TkDefaultFont',18), fg='black', bg='orange', state='disabled')
