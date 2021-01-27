@@ -13,9 +13,9 @@ change Adobe Premiere project version to low version
 Need Python3  需要Python3  
 Win:
 ```bash
-python ./changeprversion.py
+python ./changeprversion_gui.py
 ```
 Mac:
 ```bash
-python3 ./changeprversion.py
+python3 ./changeprversion_gui.py
 ```
