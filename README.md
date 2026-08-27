@@ -19,5 +19,3 @@ Mac:
 ```bash
 python3 ./changeprversion_gui.py
 ```
-
-[build with orcarouter](https://www.orcarouter.ai/ref/ref_f8e4549fc4411e37b055)
